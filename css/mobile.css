@@ -88,10 +88,20 @@
 }
 
 @media(max-width: 400px) {
+    .showcase {
+        min-height: 100vh;
+    }
+
+    .about img {
+        width: 95%;
+        height: auto;
+    }
+
     .about .info {
-        padding: 0.1rem;
-        grid-gap: 10px;
-        width: 100%;
+        padding: 0;
+        column-gap: 10px;
+        width: 90%;
+        margin: auto;
     }
 
     .projects .items {
@@ -110,6 +120,13 @@
         width: 90%;
     }
 
+    .social-box {
+        flex-direction: column;
+    }
+
+    .social {
+        margin: auto;
+    }
 }
 
 @media(max-width: 325px) {
